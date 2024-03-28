@@ -1,0 +1,97 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+main ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+main li {
+    margin-bottom: 5px;
+    font-weight: bold; /* Adicionando negrito aos itens da lista */
+}
+
+/* Estilo dos links */
+a {
+    color: #337ab7; /* Cor azul para os links */
+    text-decoration: underline; /* Sublinhar os links */
+}
+
+/* Estilo dos links quando hover (quando o cursor do mouse está sobre o link) */
+a:hover {
+    color: #23527c; /* Cor mais escura ao passar o mouse sobre o link */
+}
+
+/* Estilo para o link de voltar */
+nav a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
